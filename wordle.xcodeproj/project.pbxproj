@@ -14,6 +14,7 @@
 		C0CCDE0B29A834880005F26E /* wordleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CCDE0A29A834880005F26E /* wordleTests.swift */; };
 		C0CCDE1529A834880005F26E /* wordleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CCDE1429A834880005F26E /* wordleUITests.swift */; };
 		C0CCDE1729A834880005F26E /* wordleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CCDE1629A834880005F26E /* wordleUITestsLaunchTests.swift */; };
+		C0CCDE2429A837450005F26E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = C0CCDE2329A837450005F26E /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		C0CCDE1029A834880005F26E /* wordleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wordleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0CCDE1429A834880005F26E /* wordleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wordleUITests.swift; sourceTree = "<group>"; };
 		C0CCDE1629A834880005F26E /* wordleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wordleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C0CCDE2329A837450005F26E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 		C0CCDDED29A834860005F26E = {
 			isa = PBXGroup;
 			children = (
+				C0CCDE2329A837450005F26E /* README.md */,
 				C0CCDDF829A834860005F26E /* wordle */,
 				C0CCDE0929A834880005F26E /* wordleTests */,
 				C0CCDE1329A834880005F26E /* wordleUITests */,
@@ -94,8 +97,10 @@
 		C0CCDDF829A834860005F26E /* wordle */ = {
 			isa = PBXGroup;
 			children = (
+				C0CCDE2629A837AA0005F26E /* Controller */,
+				C0CCDE2529A837A30005F26E /* Model */,
+				C0CCDE2729A837BB0005F26E /* View */,
 				C0CCDDF929A834860005F26E /* wordleApp.swift */,
-				C0CCDDFB29A834860005F26E /* ContentView.swift */,
 				C0CCDDFD29A834880005F26E /* Assets.xcassets */,
 				C0CCDDFF29A834880005F26E /* Preview Content */,
 			);
@@ -125,6 +130,28 @@
 				C0CCDE1629A834880005F26E /* wordleUITestsLaunchTests.swift */,
 			);
 			path = wordleUITests;
+			sourceTree = "<group>";
+		};
+		C0CCDE2529A837A30005F26E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C0CCDE2629A837AA0005F26E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C0CCDE2729A837BB0005F26E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C0CCDDFB29A834860005F26E /* ContentView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +258,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0CCDE2429A837450005F26E /* README.md in Resources */,
 				C0CCDE0129A834880005F26E /* Preview Assets.xcassets in Resources */,
 				C0CCDDFE29A834880005F26E /* Assets.xcassets in Resources */,
 			);
